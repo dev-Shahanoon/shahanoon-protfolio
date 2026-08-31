@@ -88,7 +88,7 @@ function App() {
               </a>
 
               <a
-                href="/Shahanoon_K_Resume.pdf"
+                href="/shahanoon_K_Resume.pdf"
                 className="button secondary"
                 download
               >
