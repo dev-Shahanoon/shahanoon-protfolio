@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { Link } from "react-router-dom";
-import profilePhoto from "./assets/profile.jpeg";
+import profilePhoto from "./assets/profile.png";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
