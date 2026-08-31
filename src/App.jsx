@@ -368,13 +368,12 @@ function App() {
             <div className="education-year">2022 — 2024</div>
 
             <div>
-              <h3>Higher Secondary — Computer Science</h3>
+              <h3>Higher Secondary | Computer Science</h3>
 
               <h4>UHHS Chaliyam</h4>
 
               <p>
-                Completed higher secondary education with a focus on Computer
-                Science.
+                Developed a foundational understanding of computer science concepts, programming basics, and core sciences.
               </p>
             </div>
           </div>
@@ -403,9 +402,9 @@ function App() {
       <h3>FreshTrack</h3>
 
       <p>
-        A Flutter-based food inventory application designed to help
+        A Flutter based food inventory application designed to help
         users manage food items, monitor expiry dates, receive
-        expiry-related alerts, and organize their inventory.
+        expiry related alerts, and organize their inventory.
       </p>
 
       <div className="project-tech">
