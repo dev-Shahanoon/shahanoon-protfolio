@@ -33,9 +33,10 @@ I enjoy turning ideas into useful, clean, and user-friendly applications.
 
 A Flutter application designed to help users manage food inventory, monitor expiry dates, receive alerts, and discover recipe ideas using AI.
 
-**Technologies:** Flutter · Dart · Firebase · Firestore · Gemini AI
+**Technologies:**  
+`Flutter` `Dart` `Firebase` `Firestore` `Gemini AI`
 
-Repository:  
+**Repository:**  
 https://github.com/dev-Shahanoon/FreshTrack
 
 ---
@@ -46,7 +47,10 @@ https://github.com/dev-Shahanoon/FreshTrack
 
 A learning-focused application designed around hands-on programming exercises, helping users practice coding through interactive challenges.
 
-**Technologies:** Flutter · Dart · Python · FastAPI
+**Technologies:**  
+`Flutter` `Dart` `Python` `FastAPI`
+
+> Repository will be added when the project is published.
 
 ---
 
@@ -56,7 +60,10 @@ A learning-focused application designed around hands-on programming exercises, h
 
 A Flutter application for managing multiple accounts, tracking income and expenses, viewing transaction history, and analyzing financial activity.
 
-**Technologies:** Flutter · Dart · SQLite / Local Data
+**Technologies:**  
+`Flutter` `Dart` `Local Database`
+
+> Repository will be added when the project is published.
 
 ---
 
