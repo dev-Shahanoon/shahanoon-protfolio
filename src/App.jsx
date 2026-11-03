@@ -104,7 +104,7 @@ function App() {
 
               <div className="social-links">
   <a
-    href="https://www.linkedin.com/in/shahanoon-k"
+    href="https://www.linkedin.com/in/shahanoon-k/"
     target="_blank"
     rel="noreferrer"
   >
@@ -379,11 +379,11 @@ function App() {
           </div>
         </section>
 
-        {/* PROJECTS */}
-        <section className="section projects" id="projects">
+       
+{/* PROJECTS */}
+<section className="section projects" id="projects">
   <div className="section-heading">
     <p className="eyebrow">MY PROJECTS</p>
-
     <h2>
       Things I've <span>built.</span>
     </h2>
@@ -393,14 +393,12 @@ function App() {
 
     {/* FRESHTRACK */}
     <article className="project-card featured">
-
       <div className="project-top">
         <span className="project-number">01</span>
         <span className="project-type">FLUTTER APP</span>
       </div>
 
       <h3>FreshTrack</h3>
-
       <p>
         A Flutter based food inventory application designed to help
         users manage food items, monitor expiry dates, receive
@@ -414,26 +412,19 @@ function App() {
         <span>Firestore</span>
       </div>
 
-      <Link
-        to="/freshtrack"
-        className="project-link project-button"
-      >
+      <Link to="/freshtrack" className="project-link project-button">
         View Project <span>↗</span>
       </Link>
-
     </article>
-
 
     {/* CODESTEP */}
     <article className="project-card">
-
       <div className="project-top">
         <span className="project-number">02</span>
         <span className="project-type">LEARNING APP</span>
       </div>
 
       <h3>CodeStep</h3>
-
       <p>
         A learning-focused Flutter application created to study
         Python and HTML through structured topics and coding
@@ -448,16 +439,50 @@ function App() {
       </div>
 
       <a
-        href="#contact"
+        href="https://github.com/dev-Shahanoon"
+        target="_blank"
+        rel="noreferrer"
         className="project-link"
       >
-        View Project <span>↗</span>
+        View on GitHub <span>↗</span>
       </a>
+    </article>
 
+    {/* EXPENSE TRACKER */}
+    <article className="project-card">
+      <div className="project-top">
+        <span className="project-number">03</span>
+        <span className="project-type">FINANCE APP</span>
+      </div>
+
+      <h3>Expense Tracker</h3>
+
+      <p>
+        A personal finance management application built with Flutter.
+        Manage multiple accounts, track income and expenses, monitor
+        balances, and analyze transactions in one place.
+      </p>
+
+      <div className="project-tech">
+        <span>Flutter</span>
+        <span>Dart</span>
+        <span>Hive</span>
+        <span>Analytics</span>
+      </div>
+
+      <a
+        href="https://github.com/dev-Shahanoon/expense_tracker"
+        target="_blank"
+        rel="noreferrer"
+        className="project-link"
+      >
+        View on GitHub <span>↗</span>
+      </a>
     </article>
 
   </div>
 </section>
+
         {/* CONTACT */}
         <section className="section contact" id="contact">
           <div className="contact-box">
@@ -481,7 +506,7 @@ function App() {
   </a>
 
   <a
-    href="https://www.linkedin.com/in/shahanoon-k"
+    href="https://www.linkedin.com/in/shahanoon-k/"
     className="button secondary"
     target="_blank"
     rel="noreferrer"

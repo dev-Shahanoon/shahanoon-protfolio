@@ -1,0 +1,515 @@
+
+/* =========================================================
+   EXPENSE TRACKER PROJECT PAGE
+========================================================= */
+
+.expense-page {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--text);
+}
+
+/* HEADER */
+
+.expense-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  min-height: 82px;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(248, 250, 252, 0.94);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+}
+
+.expense-badge {
+  padding: 9px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* HERO */
+
+.expense-hero {
+  width: min(1050px, 86%);
+  margin: auto;
+  padding: 130px 0 120px;
+}
+
+.expense-label {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.expense-hero h1 {
+  margin: 24px 0 15px;
+  font-size: clamp(65px, 10vw, 120px);
+  line-height: 0.95;
+  letter-spacing: -6px;
+  overflow-wrap: anywhere;
+}
+
+.expense-hero h1 span {
+  color: var(--blue);
+}
+
+.expense-subtitle {
+  margin: 0;
+  font-size: clamp(20px, 3vw, 30px);
+  font-weight: 700;
+}
+
+.expense-intro {
+  max-width: 760px;
+  margin: 30px 0 0;
+  color: var(--muted);
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+.expense-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 35px;
+}
+
+.expense-tech span {
+  padding: 9px 14px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* SECTIONS */
+
+.expense-section {
+  width: min(1050px, 86%);
+  margin: auto;
+  padding: 100px 0;
+  border-top: 1px solid var(--border);
+}
+
+.expense-section-title {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  margin-bottom: 55px;
+}
+
+.expense-section-title span {
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.expense-section-title h2 {
+  margin: 0;
+  font-size: clamp(35px, 5vw, 58px);
+  letter-spacing: -3px;
+}
+
+/* OVERVIEW */
+
+.expense-overview {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 70px;
+}
+
+.expense-overview p {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.expense-overview-card {
+  padding: 10px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+}
+
+.expense-overview-card div {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+.expense-overview-card div:last-child {
+  border-bottom: none;
+}
+
+.expense-overview-card span {
+  color: var(--blue);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.expense-overview-card strong {
+  font-size: 15px;
+}
+
+/* FEATURES */
+
+.expense-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.expense-feature-card {
+  min-height: 220px;
+  padding: 28px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  transition: 0.25s ease;
+}
+
+.expense-feature-card:hover {
+  transform: translateY(-5px);
+  border-color: #b7d8f1;
+  box-shadow: 0 20px 40px rgba(23, 34, 56, 0.07);
+}
+
+.expense-feature-card > span {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.expense-feature-card h3 {
+  margin: 35px 0 12px;
+  font-size: 19px;
+}
+
+.expense-feature-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* TECHNOLOGY */
+
+.expense-technology-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.expense-technology-card {
+  padding: 28px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+
+.expense-technology-card strong {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.expense-technology-card span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* DEVELOPMENT */
+
+.expense-development-list {
+  max-width: 850px;
+}
+
+.expense-development-list > div {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 20px;
+  padding: 25px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.expense-development-list span {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.expense-development-list p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* SOURCE */
+
+.expense-source {
+  width: min(1050px, 86%);
+  margin: 40px auto 100px;
+  padding: clamp(45px, 7vw, 75px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  background: var(--navy);
+  border-radius: 25px;
+  color: white;
+}
+
+.expense-source h2 {
+  margin: 20px 0;
+  font-size: clamp(38px, 5vw, 60px);
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+.expense-source h2 span {
+  color: var(--blue);
+}
+
+.expense-source p {
+  max-width: 500px;
+  margin: 0;
+  color: #bdc8d9;
+  line-height: 1.7;
+}
+
+.expense-github {
+  min-width: 230px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #506078;
+  border-radius: 18px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.expense-github:hover {
+  border-color: var(--blue);
+  transform: translateY(-4px);
+}
+
+.expense-github > span {
+  font-size: 28px;
+  color: var(--blue);
+}
+
+.expense-github strong {
+  font-size: 15px;
+}
+
+.expense-github small {
+  color: #aebbd0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* FINAL */
+
+.expense-final {
+  width: min(1050px, 86%);
+  margin: auto;
+  padding: 0 0 100px;
+}
+
+.back-button.large {
+  padding: 15px 22px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+/* FOOTER */
+
+.expense-footer {
+  min-height: 90px;
+  padding: 25px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.expense-footer strong {
+  color: var(--navy);
+  font-size: 18px;
+}
+
+.expense-footer strong span {
+  color: var(--blue);
+}
+
+.expense-footer p {
+  margin: 0;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+  .expense-hero {
+    padding: 100px 0;
+  }
+
+  .expense-overview {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .expense-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .expense-technology-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .expense-source {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .expense-github {
+    width: 100%;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+  .expense-header {
+    min-height: 74px;
+    padding: 0 6%;
+  }
+
+  .expense-badge {
+    font-size: 10px;
+    padding: 8px 10px;
+  }
+
+  .expense-hero,
+  .expense-section,
+  .expense-source,
+  .expense-final {
+    width: 88%;
+  }
+
+  .expense-hero {
+    padding: 75px 0 80px;
+  }
+
+  .expense-hero h1 {
+    font-size: clamp(48px, 13vw, 75px);
+    letter-spacing: -4px;
+  }
+
+  .expense-subtitle {
+    font-size: 19px;
+    line-height: 1.4;
+  }
+
+  .expense-intro {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
+  .expense-section {
+    padding: 75px 0;
+  }
+
+  .expense-section-title {
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+
+  .expense-section-title h2 {
+    font-size: 36px;
+    letter-spacing: -2px;
+  }
+
+  .expense-features {
+    grid-template-columns: 1fr;
+  }
+
+  .expense-feature-card {
+    min-height: auto;
+  }
+
+  .expense-technology-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .expense-source {
+    margin-top: 25px;
+    margin-bottom: 75px;
+    padding: 40px 25px;
+    border-radius: 20px;
+  }
+
+  .expense-source h2 {
+    font-size: 40px;
+  }
+
+  .expense-footer {
+    flex-direction: column;
+    gap: 12px;
+    padding: 28px 20px;
+    text-align: center;
+  }
+}
+
+/* SMALL PHONES */
+
+@media (max-width: 400px) {
+  .expense-header {
+    padding: 0 5%;
+  }
+
+  .back-button {
+    font-size: 12px;
+  }
+
+  .expense-badge {
+    display: none;
+  }
+
+  .expense-hero,
+  .expense-section,
+  .expense-source,
+  .expense-final {
+    width: 90%;
+  }
+
+  .expense-hero h1 {
+    font-size: 48px;
+  }
+
+  .expense-section-title h2 {
+    font-size: 32px;
+  }
+}

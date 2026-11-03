@@ -20,7 +20,10 @@ function FreshTrack() {
 </Link>
 
         <span className="private-badge">
-          🔒 Private Repository
+          <a
+    href="https://github.com/dev-Shahanoon/FreshTrack"a>
+            <strong>View on GitHub</strong>
+    </a>
         </span>
       </header>
 
@@ -253,38 +256,43 @@ function FreshTrack() {
         </section>
 
 
-        {/* SOURCE CODE */}
-        <section className="freshtrack-source">
+       
+{/* SOURCE CODE */}
+<section className="freshtrack-source">
 
-          <div>
-            <span className="freshtrack-label">
-              SOURCE CODE
-            </span>
+  <div>
+    <span className="freshtrack-label">
+      SOURCE CODE
+    </span>
 
-            <h2>
-              Built with code.
-              <br />
-              <span>Kept private.</span>
-            </h2>
+    <h2>
+      Built with code.
+      <br />
+      <span>Explore on GitHub.</span>
+    </h2>
 
-            <p>
-              The FreshTrack source code is currently maintained in a
-              private GitHub repository.
-            </p>
-          </div>
+    <p>
+      Explore the FreshTrack project repository on GitHub.
+    </p>
+  </div>
 
-          <div className="private-repository">
-            <span className="lock-icon">🔒</span>
+  <a
+    href="https://github.com/dev-Shahanoon/FreshTrack"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="private-repository"
+    style={{ color: "white", textDecoration: "none" }}
+  >
+    <span className="lock-icon">↗</span>
 
-            <strong>Private Repository</strong>
+    <strong>View on GitHub</strong>
 
-            <small>
-              Source code is not publicly available.
-            </small>
-          </div>
+    <small>
+      Open FreshTrack repository
+    </small>
+  </a>
 
-        </section>
-
+</section>
 
         {/* BACK */}
         <section className="freshtrack-final">
