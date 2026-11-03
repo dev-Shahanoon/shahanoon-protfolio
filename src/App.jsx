@@ -395,7 +395,7 @@ function App() {
     <article className="project-card featured">
       <div className="project-top">
         <span className="project-number">01</span>
-        <span className="project-type">FLUTTER APP</span>
+        <span className="project-type">FOOD APP</span>
       </div>
 
       <h3>FreshTrack</h3>
